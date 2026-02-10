@@ -38,3 +38,11 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Making the image responsive to scale properly inside the grid.
+The width of the image is set to 100% of its container's width,
+and the height auto keeps the proportions correct. */
+img {
+  width: 100%;
+  height: auto;
+}
